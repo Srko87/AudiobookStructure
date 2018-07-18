@@ -4,19 +4,21 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/gray</item>
+
     </style>
 
-    <style name="regularBoldText" >
-        <item name = "android:textSize">@dimen/regularTextSize</item>
-        <item name = "android:textStyle">bold</item>
+    <style name="regularBoldText">
+        <item name="android:textSize">@dimen/regularTextSize</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Category" >
-        <item name = "android:textSize">@dimen/categoryTextSize</item>
-        <item name = "android:gravity">center_horizontal</item>
-        <item name = "android:padding">@dimen/categoryPadding</item>
-        <item name = "android:textColor">@color/white</item>
-        <item name = "android:textStyle">bold</item>
+    <style name="Category">
+        <item name="android:textSize">@dimen/categoryTextSize</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/categoryPadding</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="CustomSeekBar" parent="@android:style/Widget.SeekBar">
@@ -24,9 +26,9 @@
         <item name="android:maxHeight">@dimen/seekBarHeight</item>
     </style>
 
-    <style name="regularText" >
-        <item name = "android:textSize">@dimen/regularTextSize</item>
-        <item name = "android:textStyle">bold</item>
+    <style name="regularText">
+        <item name="android:textSize">@dimen/regularTextSize</item>
+        <item name="android:textStyle">bold</item>
 
     </style>
 

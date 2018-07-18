@@ -24,23 +24,23 @@ public class BookAdapter extends ArrayAdapter<Book> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.activity_book_list, parent, false);
+                    R.layout.book_list_item, parent, false);
         }
 
 
         Book currentBook = getItem(position);
 
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.book_name_view);
+        TextView nameTextView = listItemView.findViewById(R.id.book_name_view);
 
         nameTextView.setText(currentBook.getbookNameID());
 
         nameTextView.setSelected(true);
 
-        TextView authorTextView = (TextView) listItemView.findViewById(R.id.book_author_view);
+        TextView authorTextView = listItemView.findViewById(R.id.book_author_view);
 
         authorTextView.setText(currentBook.getauthorNameID());
 
-        ImageView iconView = (ImageView) listItemView.findViewById(R.id.book_icon_view);
+        ImageView iconView = listItemView.findViewById(R.id.book_icon_view);
 
         iconView.setImageResource(currentBook.getbookIconID());
 

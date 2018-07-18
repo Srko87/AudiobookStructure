@@ -50,7 +50,7 @@ public class HorrorActivity extends AppCompatActivity {
             }
         });
 
-       TextView toLibrary = findViewById(R.id.back_to_library);
+        TextView toLibrary = findViewById(R.id.back_to_library);
 
         toLibrary.setOnClickListener(new View.OnClickListener()
 
