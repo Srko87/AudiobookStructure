@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AudiobookStructure</string>
+    <string name="currently_playing">Currently Playing\:</string>
+    <string name="to_library">Library</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="scifi">Science Fiction</string>
+    <string name="horror">Horror</string>
+    <string name="self_help">Self Help</string>
+    <string name="library">Library</string>
+    <string name="full_library">Full Library</string>
+    <string name="no_books">You have no audio books of this genre.</string>
+    <string name="fantasy_book_1">Game of thrones</string>
+    <string name="fantasy_author_1">George R.R. Martin</string>
+    <string name="fantasy_book_2">Hobit</string>
+    <string name="fantasy_author_2">J.R.R Tolkien</string>
+    <string name="fantasy_book_3">Harry Potter</string>
+    <string name="fantasy_author_3">J.K. Rowling</string>
+    <string name="fantasy_book_4">The chronicles of Narnia</string>
+    <string name="fantasy_author_4">C.S. Lewis</string>
+    <string name="horror_book_1">Frankenstein</string>
+    <string name="horror_author_1">Mary Shelley</string>
+    <string name="horror_book_2">Shining!</string>
+    <string name="horror_author_2">Stephen King</string>
+    <string name="horror_book_3">It</string>
+    <string name="horror_book_4">The haunting of Hill House</string>
+    <string name="horror_author_4">Shirley Jackson</string>
+    <string name="scifi_book_1">Snow Crash</string>
+    <string name="scifi_author_1">Neal Stephenson</string>
+    <string name="scifi_book_2">The Martian</string>
+    <string name="scifi_author_2">Andy Weir</string>
+    <string name="scifi_book_3">Dune</string>
+    <string name="scifi_author_3">Frank Herbert</string>
+</resources>
