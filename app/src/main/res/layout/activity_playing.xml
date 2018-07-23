@@ -127,7 +127,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/newSectionHorizontalMargin"
             android:background="@color/library"
-            android:text="@string/to_library" />
+            android:text="@string/to_library"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 

@@ -16,11 +16,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FantasyActivity" />
-        <activity android:name=".FullLibraryActivity" />
-        <activity android:name=".HorrorActivity" />
-        <activity android:name=".PlayingActivity" />
-        <activity android:name=".ScifiActivity" />
+        <activity
+            android:name=".FantasyActivity"
+            android:label="Fantasy"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FullLibraryActivity"
+            android:label="Full Library"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HorrorActivity"
+            android:label="Horror"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PlayingActivity"
+            android:label="Now Playing"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ScifiActivity"
+            android:label="SciFi"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
